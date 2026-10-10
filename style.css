@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4d04e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 25rem;
+    max-width: 90%;
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 1.25rem;
+    border: 0.0625rem solid black;
+    box-shadow: 0.5rem 0.5rem 0 black;
+}
+.pic{
+    width: 100%;
+    display: block;
+    border-radius: 0.75rem;
+}
+.button{
+    margin-top: 1.25rem;
+}
+.button button{
+    background-color: #e8b90e;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    font-weight: bold;
+    border-radius: 0.3125rem;
+}
+.main{
+    margin-top: 0.9375rem;
+}
+.date{
+    font-size: medium;
+    margin-bottom: 0.75rem;
+}
+h3{
+    font-size: 1.5rem;
+     margin-bottom: 0.75rem;
+}
+.main p{
+    color: #666;
+    line-height: 1.5;
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin-top: 1.25rem;
+    gap: 0.625rem;
+}
+.author img{
+    width: 2.1875rem;
+    height:2.1875rem ;
+    border-radius: 50%;
+}
+.author p{
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+.attribution{
+    text-align: center;
+    font-size: 0.75rem;
+    margin-top: 2rem;
+    color: #333;
+}
+.attribution a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.attribution a:hover{
+    text-decoration: underline;
+}
+    @media (max-width: 600px) {
+    .card {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+}
